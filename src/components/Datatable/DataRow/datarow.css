@@ -1,0 +1,56 @@
+.row {
+    padding: 24px 24px 24px 0px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.expand {
+    width: 6%;
+    float: left;
+    cursor: pointer;
+}
+
+.expansion {
+    padding: 32px 16px 0px 32px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.synopsis {
+    padding: 12px 6px 16px 6px;
+}
+
+.expansion-row {
+    padding: 6px;
+}
+
+.label, .value {
+    display: inline-block;
+    text-align: left;
+}
+
+.label {
+    width: 160px;
+    text-align: left;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.column {
+    float: left;
+}
+
+.column .inner-column {
+    text-align: left;
+}
+
+.c1 {
+    width: 54%;
+}
+
+.c2, .c3 {
+    width: 20%;
+}
+
+.column .align-right {
+    text-align: right;
+}

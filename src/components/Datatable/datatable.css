@@ -1,0 +1,44 @@
+.datatable {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.datatable {
+    border: 1px solid #f0f0f0;
+    padding: 16px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.header {
+    height: 40px;
+}
+
+.genres {
+    float: right;
+}
+
+#genre-select {
+    width: 160px;
+}
+
+.title {
+    float: left;
+    text-align: left;
+}
+
+.headers {
+    width: 100%;
+    vertical-align: middle;
+    border-top: 1px solid lightgrey;
+}
+
+.header-empty {
+    width: 6%;
+    float: left;
+    min-height: 1px;
+}
+
+.value-rows {
+    clear: both;
+}
