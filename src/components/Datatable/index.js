@@ -83,7 +83,7 @@ function Datatable(props) {
             </div>
             <div className="value-rows">
                 {props.getMovies(sortProperty, sortOrder, getFilters()).flatMap((v, i) => (
-                    <DataRow key={i} index={i} movie={v} />
+                    <DataRow key={v.name} movie={v} />
                 ))}
             </div>
         </div>

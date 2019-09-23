@@ -10,7 +10,7 @@ function DataRow(props) {
     }
     
     return (
-        <div key={"row-" + props.index} className="row">
+        <div className="row">
             <div onClick={() => setExpanded(!expanded)} className="expand">
                 <i className={"fa fa-angle-" + (expanded ? "down" : "right")}></i>
             </div>
